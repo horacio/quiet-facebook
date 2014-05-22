@@ -1,9 +1,9 @@
 div[id*="topnews"], /* News feed */
 #u_0_1q, /* News feed: empty loading indicator items */
 #pagelet_bookmark_nav, /* Left column: Bookmarks */
+#pagelet_ego_pane, /* Right column: Suggestions. */
 a[href*="lists"], /* Left column: Lists like 'Close Friends' */
-div[id*="ticker"], /* Right column / Chat sidebar: news ticker */
-div[id*="pagelet_ego_pane"] /* Right column: Suggestions. */
+div[id*="ticker"] /* Right column / Chat sidebar: news ticker */
 {
   display: none !important;
 }
